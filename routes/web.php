@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use app\Http\Controllers\ClenteController;
+use app\Http\Controllers\FornecedorController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/clientes',[ClenteController::class, 'show']);
+
+Route::get('/fornecedores', [FornecedorController::class, 'show']);
+
+
