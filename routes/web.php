@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\ClenteController;
-use app\Http\Controllers\FornecedorController;
+use App\Http\Controllers\ClenteController;
+use App\Http\Controllers\FornecedorController;
 
 
 /*
